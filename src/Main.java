@@ -10,7 +10,7 @@ public class Main {
             String input = scanner.nextLine().replace(" ","").toLowerCase();
             switch (input) {
                 case "#help":
-                    System.out.println("'#read' - для чтения; '#write' - для записи; '#search' - для поиска записей по дате; '#statistics' - для отображении статистики; '#delete' - для удоления ключа и всех записей 'q' - для выхода");
+                    System.out.println("'#read' - для чтения;\n'#write' - для записи;\n'#search' - для поиска записей по дате;\n'#statistics' - для отображении статистики;\n'#delete' - для удоления ключа и всех записей;\n'q' - для выхода.");
                     System.out.println("Введите команду");
                     break;
                 case "#read":
